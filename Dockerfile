@@ -1,4 +1,4 @@
-FROM ubuntu:13.10
+FROM ubuntu:14.10
 
 RUN apt-get update &&\
     apt-get install -y git-core subversion build-essential gcc-multilib \
