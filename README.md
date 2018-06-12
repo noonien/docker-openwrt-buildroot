@@ -1,6 +1,6 @@
 docker-openwrt-buildroot
 ========================
-[![Docker Build Status](http://hubstatus.container42.com/noonien/openwrt-buildroot)](https://registry.hub.docker.com/u/noonien/openwrt-buildroot)
+[![Docker Build Status](http://hubstatus.container42.com/noonien/openwrt-buildroot)](https://hub.docker.com/r/noonien/openwrt-buildroot)
 [![License: MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/noonien/docker-openwrt-buildroot/blob/master/LICENSE)
 
 
