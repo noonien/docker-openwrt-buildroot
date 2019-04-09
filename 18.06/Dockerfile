@@ -12,5 +12,5 @@ USER openwrt
 WORKDIR /home/openwrt
 
 RUN git clone git://git.openwrt.org/openwrt/openwrt.git -b openwrt-18.06 &&\
-    openwrt/scripts/feeds update -a
-
+    openwrt/scripts/feeds update -a &&\
+    openwrt/scripts/feeds install -a
