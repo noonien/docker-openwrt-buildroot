@@ -12,5 +12,6 @@ USER openwrt
 WORKDIR /home/openwrt
 
 RUN git clone git://git.openwrt.org/openwrt/openwrt.git -b lede-17.01 &&\
-    openwrt/scripts/feeds update -a
+    openwrt/scripts/feeds update -a &&\
+    openwrt/scripts/feeds install -a
 
